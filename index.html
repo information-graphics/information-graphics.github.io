@@ -17,6 +17,15 @@
         font-weight: 400;
         line-height: 1.4;
     }
+    p {
+        margin: 0px 0px 1em 0px;
+    }
+    h2 {
+        font-size: 22px;
+        margin-bottom: 0;
+        margin-top: 50px;
+        border-top: 1px solid blue;
+    }
     #container {
         max-width: 690px;
         padding: 40px;
@@ -25,19 +34,46 @@
         color: rgba(0,0,255,1);
     }
     a {
-        background: white;
+        background: rgba(0,0,255,.2);
         color: blue;
         text-decoration: none;
-        padding: 0px 8px 3px;
-        border-radius: 2px;
-        border: 1px solid blue;
+        /*padding: 0px 8px 3px;*/
+        /*border-radius: 2px;*/
+        /*border: 1px solid blue;*/
         transition: .4s all;
     }
     a:hover {
         background-color: cyan;
         color: blue;
     }
+    .header {
+        margin-bottom: 3em;
+    }
     .date {
+        padding-right: 20px;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    table th {
+        width: 20%;
+        text-align: left;
+        vertical-align: bottom;
+        margin-right: 5%;
+    }
+    table td {
+        vertical-align: top;
+        padding-bottom: 30px;
+        padding-right: 30px;
+        border-top: 1px solid blue;
+    }
+    .date {
+        width: 5%;
+        text-align: left;
+    }
+
+    tr td:first-child {
+        text-align: left;
         padding-right: 20px;
     }
 
@@ -46,18 +82,187 @@
 
 <body>
   <div id="container">
+    <div class="header">
+        <h2>DSD-3378 Information Graphics</h2>
+        <br>
+        <p>Mondays from 6:30pm to 9:20pm <br>  
+        214 E. 21st Room 703A <br>
+        Larry Buchanan <br>
+        larrybuch@gmail.com</p>
+    </div>
+
+    <div class="sked">        
+        <table>
+          <thead>
+            <tr>
+                <th class="date">Date</th>
+                <th class="today">What We're Doing</th>
+                <th class="homework">Homework</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>01.08</td>
+              <td>Playing with skittles, going over the syllabus</td>
+              <td>Infographics Diary</td>
+            </tr>
+            <tr>
+              <td>01.22</td>
+              <td>Let's make some charts.</td>
+              <td>Make 20 charts — 10 in Illustrator and 10 by hand — with <a href="https://docs.google.com/spreadsheets/d/1JBj9GJU-Yu2U-Z8xqkCK68Svml8YiFZ0rkIp4dEr5gk/edit#gid=0">this dataset</a>. Bring them with you to class on 01.29. </td>
+            </tr>
+            <tr>
+              <td>01.29</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>02.05</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>02.12</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>02.19</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>02.26</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>03.12</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>03.19</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>03.26</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>04.02</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>04.09</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>04.16</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>04.23</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>04.30</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+
+    <div class="syllabus">
+
+        <h2>Syllabus</h2>
+        <br>
+        <p>This class is about learning how to tell a story through visuals — primarily through the use of charts, maps, diagrams and other visual forms. </p>
+
+        <p>A few things you should know —</p> 
+
+        <p><b>Show up to class.</b> If you can't, let me know. For each unexcused absence, you lose 5% from your final grade. More than 3 and you fail.</p> 
+
+        <p><b>Do you work.</b> There will be four major assignments. You will be graded on the process and progress, just as much as the final piece. You will present and we will crit each final piece. There will be other smaller readings and graded assignments along the way.</p>
+
+        <p>I will not accept late assignments.</p>
+
+        <p><b>Process is important.</b> You will be rewarded for taking risks, even if those risks fail, and you can show your process.</p> 
+
+        <p><b>Participate.</b> You are exepcted to participate each class. Group projects will be common and you'll be graded on your effort.</p> 
+
+        <p><b>I am here to help.</b> Do not hesistate to ask for help at any time. I am happy to come early, stay late, or meet with you at another time to make sure you're successful in this class. Do not wait until the last minute.</p>
+
+        <p><b>Bring your laptop to every class.</b></p>
+
+        <p><b>Don't text or use your computer for personal stuff during class.</b></p>
+
+        <p><b>Students with Disabilities</b>
+        In order to receive academic accommodations due to a disability, a student must first register with the Office of Disability Services (ODS). Students approved for accommodations will be given an ODS Accommodation Letter to submit to their instructors. If a student does not provide an ODS Accommodation Letter to their instructor, they will not be eligible to receive accommodations in that course. All instructors are required to adhere to SVA’s policies regarding accommodations for students with disabilities. Students who have a need for academic accommodations, or suspect they may have a disability, should contact the ODS via telephone: 212-592-2396, or visit the office: 340 East 24th Street, 1st Floor, New York, NY 10010, or email: disabilityresources@sva.edu.</p>
+
+    </div>
+
+    
+  </div>
+  
+</body>
+</html>
+
+<!-- 
+01.08.18
+01.22.18
+01.29.18
+02.05.18
+02.12.18
+02.19.18
+02.26.18
+03.12.18
+03.19.18
+03.26.18
+04.02.18
+04.09.18
+04.16.18
+04.23.18
+04.30.18 
+-->
+
+
+<!-- 
+
+
+<b>FINAL PROJECT</b> Whatever you want* 
+    <br>
+    Due on April 24 (2 full weeks away)
+    <br>
+    <br>
+    * But it must contain a map, a chart, and a diagram — I'd pick one form, make it dominant, and then have the other forms support it. It can be a redesign of a metro map (maybe the nyc subway! or of the <a href="http://ferry.nyc">new nyc ferry service</a>), can be a book, can be a wall chart, can be a motion project, can be a physical thing (maybe something that folds up into something else), can be personal or based on data (here are 2 good lists of datasets, <a href="https://github.com/caesar0301/awesome-public-datasets">public data</a> & <a href="http://tinyletter.com/data-is-plural/archive">data is plural</a> newsletter), or anything else you can think of.
+    <br>
+    <br>
+    You can also work in pairs if you'd like, but know that then I'll be expecting a project twice as good. 
+    <br>
+    <br>
+    Next week's class is optional. I'm giving it to you to work on your final projects, but I will be here in the classroom and can look at your early sketches, give you feedback, and talk about your grades if you want. I'm hoping you will use this opportunity not only to produce a great final project, but can have something to add to your portfolio that doesn't look like things you've done in other classes. 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
     ============
     <br>
-    <b>DSD-3378 Information Graphics</b>
-    <br>
-    Mondays from 6:30pm to 9:20pm
-    <br>
-    214 E. 21st Room 703A
+    <b>Assignment 8</b> Network Diagram. Due on April 10
     <br>
     <br>
-    Larry Buchanan
+    Make a network diagram. Bring it to class with you next week.
     <br>
-    larrybuch@gmail.com
     <br>
     <br>
     <br>
@@ -65,7 +270,159 @@
     <br>
     ============
     <br>
-    <b>Final project</b> 
+    <b>Assignment 7</b> Heart Diagram. Due on April 3
+    <br>
+    <br>
+    Make a diagram the human heart. No smaller than 11in x 17in. Some examples of diagrams I showed in class.
+    <a href="https://www.nytimes.com/interactive/2016/08/11/sports/olympics/simone-biles-winning-moves.html">1</a>, <a href="http://payload134.cargocollective.com/1/9/313664/4989748/P1.jpg">2</a>, <a href="http://feltron.com/PhotoViz.html">3</a>, <a href="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/s750x750/sh0.08/e35/15803038_937544159680340_6638127154334793728_n.jpg">4</a>, <a href="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/16122716_781278372022582_2624624497059168256_n.jpg">5</a>, <a href="https://s-media-cache-ak0.pinimg.com/originals/fd/54/f2/fd54f29f1caa30f99c606c42270afed6.jpg">6</a>, <a href="https://s-media-cache-ak0.pinimg.com/originals/e8/ab/83/e8ab831f4315e956ee4646c3f02f05a8.jpg">7</a>, <a href="http://www.deconcrete.org/wp-content/uploads/2010/03/Kowloon-Cross-section-low.jpg">8</a>, <a href="http://filingcabinet.larrybuch.com/image/120801715235">9</a>, <a href="https://www.behance.net/gallery/37869347/Infographics-The-importance-of-the-rough-sketch">10</a>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    ============
+    <br>
+    <b>Mapping Project</b> Wall Map. Due on March 20
+    <br>
+    <br>
+    Make a 20 in. x 30 in. wall map of whatever you want. It can be illustrated or done in QGIS, but I want you to think about telling a story with the map. What do you want the map to convey? What should the map show? What data do you need to show that? Where can you get that data? Also think about type, layout, labeling, and color and how that can help or hurt the story.
+    <br>
+    <br>
+    Mapping resources
+    <br>
+    <a href="https://mapzen.com/data/metro-extracts/">MapZen</a> | <a href="http://www.naturalearthdata.com/downloads/">Natural Earth</a> | <a href="https://www.openstreetmap.org/">Open Street Map</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    ============
+    <br>
+    <b>Assignment 6</b> Due on March 13
+    <br>
+    <br>
+    Part I: Using QGIS make a map of <i>anything</i>, but think about the story behind it, why you chose what you chose, and what to annotate about it. If you need help with QGIS, please let me know. Also, there are many <a href="http://docs.qgis.org/2.2/en/docs/user_manual/">resources</a> and <a href="https://www.youtube.com/watch?v=Vwqof0ywWA8">tutorials</a> online for help.
+    <br>
+    <br>
+    Part II: Create a personal hand-drawn map using only black sharpie. Again, think about the story and what it says about you. These are the examples I showed in class. <a href="http://www.nobutakaaozaki.com/maps.html">From here to here</a> and <a href="https://www.thisamericanlife.org/sites/default/files/Everything_Sings_Excerpt_and_Intro.pdf">Denis Wood</a>.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    ============
+    <br>
+    <b>Assignment 5</b> Due on Feb. 27
+    <br>
+    <br>
+    Download <a href="data/world_map_with_layers.ai">this file</a>. Make 3 different maps from the layers provided. You do not have to use all of the layers. Print them out and bring them to class.
+    <br>
+    <br>
+    Here's some inspiration from class. 
+    <a href="https://makingmaps.files.wordpress.com/2011/01/typographic_s_america_bw.pdf" target="_blank">South&nbsp;America, type only</a>, 
+    <a href="http://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~3656~420031:The-East-Indies,-with-the-roads--no?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&qvq=q:world%2Bgeographic%2Batlas;sort:Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No;lc:RUMSEY~8~1&mi=4&trs=456" target="_blank">East Indies, 1768</a>, 
+    <a href="http://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~283703~90056222:A-new-map-of-the-terraqueous-globe-?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&qvq=q:world%2Bgeographic%2Batlas;sort:Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No;lc:RUMSEY~8~1&mi=27&trs=456" target="_blank">World, 1700</a>, 
+    <a href="https://imgs.xkcd.com/comics/map_projections.png" target="_blank">projections</a>, 
+    <a href="http://www.davidrumsey.com/" target="_blank">the best map archive digitized</a>.
+
+    <br>
+    <br>
+    Also, please install QGIS on your laptop (<a href="http://www.qgis.org/en/site/forusers/download.html">click&nbsp;here&nbsp;for&nbsp;instructions</a>), and bring it to class next week. If you don't have a laptop, please install it on your home computer.
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    ============
+    <br>
+    <b>Charting Project</b> Quantified self. Due on Feb. 20
+    <br>
+    <br>
+    Start tracking data about yourself and your daily habits. We talked a number of options in class. Your project is to visualize that data in a booklet of at least 8 pages. The booklet can be as big or small as you'd like and contain any number of charts and forms. You can also use data that you've previously been tracking. But ultimately all of this should tell a story about you.
+    <br>
+    <br>
+    Here's some inspiration from class. <a href="http://feltron.com/" target="_blank">Nicholas&nbsp;Felton</a> and <a href="http://www.dear-data.com/" target="_blank">Dear&nbsp;Data</a>. Things to help you track: <a href="http://www.reporter-app.com/" target="_blank">Reporter&nbsp;App</a>, <a href="https://openpaths.cc/" target="_blank">Open&nbsp;Paths</a>.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    ============
+    <br>
+    <b>Assignment 4</b> Due on Feb. 13
+    <br>
+    <br>
+    Sketches for your charting project. Let me know what you're tracking and please email them to me.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    ============
+    <br>
+    <b>Assignment 3</b> Due on Feb. 6
+    <br>
+    <br>
+    Starting with the same <a href="data/titanic-data.csv" target="_blank">data set</a> we used last week (now you're very familiar with it, which is good!), <b>create two 11 in. x 17 in. spreads</b> (or larger if you want!) — one from the <b>perspective of the company</b> of who built the Titanic, one from the <b>perspective of a family member</b> who was lost on the titanic.
+    <br>
+    <br>
+    I don't really care how many charts you use, but think about how can you use charts — in combination with type, color, layout and annotation — to tell a story. You can also use additional data or research that you find, but cite your sources.
+    <br>
+    <br>
+    Some inspiration — 
+    <a href="https://www.flickr.com/photos/ffranchi/sets/72157618527782372/">Francesco Franchi</a>, <a href="http://lisacharlotterost.de/">Lisa&nbsp;Rost</a>, <a href="http://feltron.com/FAR14.html">Nicholas&nbsp;Felton</a>, <a href="http://filingcabinet.larrybuch.com/tagged/charts">charts&nbsp;I've&nbsp;saved&nbsp;over&nbsp;the&nbsp;years</a>.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    ============
+    <br>
+    
+    <b>Assignment 2</b> Due on Jan. 30
+    <br>
+    <br>
+    
+    Download <a href="data/titanic-data.csv" target="_blank">this data set</a> about the people who were on the <a href="https://en.wikipedia.org/wiki/RMS_Titanic" target="_blank">Titanic's last voyage</a>. Make <b>25 different chart sketches</b> in whatever size and style you'd like. They can be very rough. 
+    
+    <br>
+    <br>
+
+    We talked about Excel, Google Drive, <a href="http://raw.densitydesign.org/" target="_blank">Raw</a>, and Illustrator in class. You can use any of these programs, or, more likely, a combination of them.
+
+    <br>
+    <br>
+
+
+    <b>Pick 5</b> of those sketches to make into final versions. Those final versions can be as big as you'd like, but shouldn't be smaller than 8.5 in. wide x 5.5 in. tall.
+    <br>
+    <br>
+
+    <b>Print out</b> all of your sketches, and your 5 finals and bring them to class next Monday.
+    <br>
+    <br>
+    E-mail with any questions.
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> -->
+
+
+
+   <!--  <b>Final project</b> 
     <br>
     <br>
     You've got 1 magazine spread (two pages, feel free to fill more than two pages though) in New York Magainze to fill with an information graphic. Pick a New York-centric topic to explore.
@@ -320,7 +677,7 @@
     <br>
     <br>
     <br>
-    <br>
+    <br> -->
 
    <!--  ========
     <br>
@@ -358,196 +715,4 @@
     <span class="date">4/17</span>  Midway crit final projects.
     <br>
     <span class="date">4/24</span>  Final crit and presentations.
-    <br> -->
-  </div>
-  
-</body>
-</html>
-
-
-
-<!-- 
-
-
-<b>FINAL PROJECT</b> Whatever you want* 
-    <br>
-    Due on April 24 (2 full weeks away)
-    <br>
-    <br>
-    * But it must contain a map, a chart, and a diagram — I'd pick one form, make it dominant, and then have the other forms support it. It can be a redesign of a metro map (maybe the nyc subway! or of the <a href="http://ferry.nyc">new nyc ferry service</a>), can be a book, can be a wall chart, can be a motion project, can be a physical thing (maybe something that folds up into something else), can be personal or based on data (here are 2 good lists of datasets, <a href="https://github.com/caesar0301/awesome-public-datasets">public data</a> & <a href="http://tinyletter.com/data-is-plural/archive">data is plural</a> newsletter), or anything else you can think of.
-    <br>
-    <br>
-    You can also work in pairs if you'd like, but know that then I'll be expecting a project twice as good. 
-    <br>
-    <br>
-    Next week's class is optional. I'm giving it to you to work on your final projects, but I will be here in the classroom and can look at your early sketches, give you feedback, and talk about your grades if you want. I'm hoping you will use this opportunity not only to produce a great final project, but can have something to add to your portfolio that doesn't look like things you've done in other classes. 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    ============
-    <br>
-    <b>Assignment 8</b> Network Diagram. Due on April 10
-    <br>
-    <br>
-    Make a network diagram. Bring it to class with you next week.
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    ============
-    <br>
-    <b>Assignment 7</b> Heart Diagram. Due on April 3
-    <br>
-    <br>
-    Make a diagram the human heart. No smaller than 11in x 17in. Some examples of diagrams I showed in class.
-    <a href="https://www.nytimes.com/interactive/2016/08/11/sports/olympics/simone-biles-winning-moves.html">1</a>, <a href="http://payload134.cargocollective.com/1/9/313664/4989748/P1.jpg">2</a>, <a href="http://feltron.com/PhotoViz.html">3</a>, <a href="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/s750x750/sh0.08/e35/15803038_937544159680340_6638127154334793728_n.jpg">4</a>, <a href="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/16122716_781278372022582_2624624497059168256_n.jpg">5</a>, <a href="https://s-media-cache-ak0.pinimg.com/originals/fd/54/f2/fd54f29f1caa30f99c606c42270afed6.jpg">6</a>, <a href="https://s-media-cache-ak0.pinimg.com/originals/e8/ab/83/e8ab831f4315e956ee4646c3f02f05a8.jpg">7</a>, <a href="http://www.deconcrete.org/wp-content/uploads/2010/03/Kowloon-Cross-section-low.jpg">8</a>, <a href="http://filingcabinet.larrybuch.com/image/120801715235">9</a>, <a href="https://www.behance.net/gallery/37869347/Infographics-The-importance-of-the-rough-sketch">10</a>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    ============
-    <br>
-    <b>Mapping Project</b> Wall Map. Due on March 20
-    <br>
-    <br>
-    Make a 20 in. x 30 in. wall map of whatever you want. It can be illustrated or done in QGIS, but I want you to think about telling a story with the map. What do you want the map to convey? What should the map show? What data do you need to show that? Where can you get that data? Also think about type, layout, labeling, and color and how that can help or hurt the story.
-    <br>
-    <br>
-    Mapping resources
-    <br>
-    <a href="https://mapzen.com/data/metro-extracts/">MapZen</a> | <a href="http://www.naturalearthdata.com/downloads/">Natural Earth</a> | <a href="https://www.openstreetmap.org/">Open Street Map</a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    ============
-    <br>
-    <b>Assignment 6</b> Due on March 13
-    <br>
-    <br>
-    Part I: Using QGIS make a map of <i>anything</i>, but think about the story behind it, why you chose what you chose, and what to annotate about it. If you need help with QGIS, please let me know. Also, there are many <a href="http://docs.qgis.org/2.2/en/docs/user_manual/">resources</a> and <a href="https://www.youtube.com/watch?v=Vwqof0ywWA8">tutorials</a> online for help.
-    <br>
-    <br>
-    Part II: Create a personal hand-drawn map using only black sharpie. Again, think about the story and what it says about you. These are the examples I showed in class. <a href="http://www.nobutakaaozaki.com/maps.html">From here to here</a> and <a href="https://www.thisamericanlife.org/sites/default/files/Everything_Sings_Excerpt_and_Intro.pdf">Denis Wood</a>.
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-    ============
-    <br>
-    <b>Assignment 5</b> Due on Feb. 27
-    <br>
-    <br>
-    Download <a href="data/world_map_with_layers.ai">this file</a>. Make 3 different maps from the layers provided. You do not have to use all of the layers. Print them out and bring them to class.
-    <br>
-    <br>
-    Here's some inspiration from class. 
-    <a href="https://makingmaps.files.wordpress.com/2011/01/typographic_s_america_bw.pdf" target="_blank">South&nbsp;America, type only</a>, 
-    <a href="http://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~3656~420031:The-East-Indies,-with-the-roads--no?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&qvq=q:world%2Bgeographic%2Batlas;sort:Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No;lc:RUMSEY~8~1&mi=4&trs=456" target="_blank">East Indies, 1768</a>, 
-    <a href="http://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~283703~90056222:A-new-map-of-the-terraqueous-globe-?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&qvq=q:world%2Bgeographic%2Batlas;sort:Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No;lc:RUMSEY~8~1&mi=27&trs=456" target="_blank">World, 1700</a>, 
-    <a href="https://imgs.xkcd.com/comics/map_projections.png" target="_blank">projections</a>, 
-    <a href="http://www.davidrumsey.com/" target="_blank">the best map archive digitized</a>.
-
-    <br>
-    <br>
-    Also, please install QGIS on your laptop (<a href="http://www.qgis.org/en/site/forusers/download.html">click&nbsp;here&nbsp;for&nbsp;instructions</a>), and bring it to class next week. If you don't have a laptop, please install it on your home computer.
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    ============
-    <br>
-    <b>Charting Project</b> Quantified self. Due on Feb. 20
-    <br>
-    <br>
-    Start tracking data about yourself and your daily habits. We talked a number of options in class. Your project is to visualize that data in a booklet of at least 8 pages. The booklet can be as big or small as you'd like and contain any number of charts and forms. You can also use data that you've previously been tracking. But ultimately all of this should tell a story about you.
-    <br>
-    <br>
-    Here's some inspiration from class. <a href="http://feltron.com/" target="_blank">Nicholas&nbsp;Felton</a> and <a href="http://www.dear-data.com/" target="_blank">Dear&nbsp;Data</a>. Things to help you track: <a href="http://www.reporter-app.com/" target="_blank">Reporter&nbsp;App</a>, <a href="https://openpaths.cc/" target="_blank">Open&nbsp;Paths</a>.
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    ============
-    <br>
-    <b>Assignment 4</b> Due on Feb. 13
-    <br>
-    <br>
-    Sketches for your charting project. Let me know what you're tracking and please email them to me.
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-    ============
-    <br>
-    <b>Assignment 3</b> Due on Feb. 6
-    <br>
-    <br>
-    Starting with the same <a href="data/titanic-data.csv" target="_blank">data set</a> we used last week (now you're very familiar with it, which is good!), <b>create two 11 in. x 17 in. spreads</b> (or larger if you want!) — one from the <b>perspective of the company</b> of who built the Titanic, one from the <b>perspective of a family member</b> who was lost on the titanic.
-    <br>
-    <br>
-    I don't really care how many charts you use, but think about how can you use charts — in combination with type, color, layout and annotation — to tell a story. You can also use additional data or research that you find, but cite your sources.
-    <br>
-    <br>
-    Some inspiration — 
-    <a href="https://www.flickr.com/photos/ffranchi/sets/72157618527782372/">Francesco Franchi</a>, <a href="http://lisacharlotterost.de/">Lisa&nbsp;Rost</a>, <a href="http://feltron.com/FAR14.html">Nicholas&nbsp;Felton</a>, <a href="http://filingcabinet.larrybuch.com/tagged/charts">charts&nbsp;I've&nbsp;saved&nbsp;over&nbsp;the&nbsp;years</a>.
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-    ============
-    <br>
-    
-    <b>Assignment 2</b> Due on Jan. 30
-    <br>
-    <br>
-    
-    Download <a href="data/titanic-data.csv" target="_blank">this data set</a> about the people who were on the <a href="https://en.wikipedia.org/wiki/RMS_Titanic" target="_blank">Titanic's last voyage</a>. Make <b>25 different chart sketches</b> in whatever size and style you'd like. They can be very rough. 
-    
-    <br>
-    <br>
-
-    We talked about Excel, Google Drive, <a href="http://raw.densitydesign.org/" target="_blank">Raw</a>, and Illustrator in class. You can use any of these programs, or, more likely, a combination of them.
-
-    <br>
-    <br>
-
-
-    <b>Pick 5</b> of those sketches to make into final versions. Those final versions can be as big as you'd like, but shouldn't be smaller than 8.5 in. wide x 5.5 in. tall.
-    <br>
-    <br>
-
-    <b>Print out</b> all of your sketches, and your 5 finals and bring them to class next Monday.
-    <br>
-    <br>
-    E-mail with any questions.
-    
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <br> -->
